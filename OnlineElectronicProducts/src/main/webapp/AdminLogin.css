@@ -1,0 +1,63 @@
+@charset "ISO-8859-1";
+body{
+		background-image: url(./oep\ baackground\ pic.jpg);
+		
+	}
+	.Login
+	{
+		display: flex;
+		
+		
+	}
+	.admin
+	{
+		border: 3px solid rgb(0, 0, 0) ;
+		margin-top: 20vh;
+		background-size: 10%;
+		background-color: rgb(255, 255, 255);
+		
+		padding-top: 30px;
+		padding-bottom: 30px;
+		padding-right: 10vh;
+		padding-left: 10vh;
+		border-radius: 20px ;
+		box-shadow: 2px 4px 5px;
+		 
+	
+	
+	}
+	h2{
+	color: rgb(255, 0, 0);
+	font-size: 40px;
+	font-family: sans-serif;
+	margin-top: 20px;
+	box-shadow: 5px 3px 5px 1px rgb(78, 78, 78);
+	
+}
+.admin1{
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+input{
+	background-color: rgb(109, 137, 177);
+	color: aliceblue;
+	border-radius: 10px;
+	padding: 10px 4px 0px 5px;
+
+}
+::placeholder{
+color: white;	
+font-family: cursive;
+}
+.button
+{
+	background-color: rgb(0, 128, 128);
+	padding:2px 10px 2px 10px;
+	border-radius: 5px;
+	color: rgb(255, 255, 255);
+	font-family:sans-serif;
+	font-size:20px;
+}

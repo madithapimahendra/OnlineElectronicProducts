@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>OEP Add Products</title>
+</head>
+<style>
+	body{
+	background-image: url(./oep\ baackground\ pic.jpg);
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	
+		
+	}
+	.aep{
+		display: flex;
+	
+		justify-content: center;
+		align-items: center;
+		margin-top: 13vh;
+	}
+	.aep1{
+		
+		
+		background-color: whitesmoke;
+		border-radius: 10px;
+		padding: 10px 15px 10px 10px;
+ 
+	}
+	.addproduct{
+		font-size: 25px;
+		color: red;
+
+
+	}
+	.addproduct>input{
+		color: rgb(0, 0, 0);
+		border: rgb(0, 0, 0);
+	background-color: rgb(169, 192, 248);	
+		padding: 5px 3px 5px 3px;
+		border-radius: 5px;
+		
+		
+	}
+	.addproduct>input:hover{
+		
+		color: rgb(0, 0, 0);
+		
+	
+	}
+	h1{
+		
+		font-size: 35px;
+		color: rgb(217, 13, 79);
+		font-family: cursive;
+		text-decoration: dashed;
+	}
+	.addbutton
+	{
+		
+		padding: 3px;
+		
+		color: rgb(0, 0, 0);
+		border-radius: 5px;
+		font-family: Verdana, Tahoma, sans-serif;
+		padding:3px 8px 3px 8px;
+		font-size: 20px;
+	
+		
+		}
+		
+	
+</style>
+<body>
+	<center>
+		<div class="aep">
+			<div class="aep1">
+		<h1>
+		<ul>  ADD PRODUCTS
+		</ul></h1>
+		<p> Enter products details</p>
+		
+		 <form action="aps" method="post" class="addproduct">
+			ProductCode <input type="text" name="pcode" ><br><br>
+			ProductName<input type="text" name="pname" ><br><br>
+			ProductCompany<input type="text" name="pcompany" ><br><br>
+			ProductPrice<input type="text" name="pprice" ><br><br>
+			ProductQuantity<input type="text" name="pqty"> <br><br>
+			<input type="submit" value=" ADD PRODUCT" class="addbutton" style="border: 2PX solid black; background-color: rgb(0, 64, 128); color: ghostwhite; padding-right: 5PX; ">
+			
+		 </form>
+		 </div>
+			
+			 </div>
+	</center>
+
+</body>
+</html>
